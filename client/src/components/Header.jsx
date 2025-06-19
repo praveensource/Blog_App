@@ -29,7 +29,7 @@ const Header = () => {
                 <FaMoon />
             </Button>
             <Link to={'/sign-in'}>
-                <Button className='bg-gradient-to-br from-purple-600 to-blue-500 text-white hover:bg-gradient-to-bl focus:ring-blue-300 dark:focus:ring-blue-800'>
+                <Button className='bg-gradient-to-br from-purple-600 to-blue-500 text-white hover:bg-gradient-to-bl focus:ring-blue-300 dark:focus:ring-blue-800' outline>
                     Sign In
                 </Button>
             </Link>
@@ -47,7 +47,6 @@ const Header = () => {
                 <NavbarLink active= {path=='/projects'} as={'div'}>
                     <Link to={'/projects'}>Projects</Link>
                 </NavbarLink>
-                
             </NavbarCollapse>
     </Navbar>
   )
